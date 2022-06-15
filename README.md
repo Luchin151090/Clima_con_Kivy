@@ -10,8 +10,11 @@ Kivy:
 
 Una vez desarrollado tu proyecto, necesitas convertir o compilar todo a un archivo "APK" el cual será el resultado final que podrás instalar en tu dispositivo móvil.
 Para ello necesitas abrir "GOOGLE COLAB" el cual nos servirá de compilador.
-Una vez en esa plataforma tendrás que cargar los archivos ".PY" y ".KV" para que inicie la conversión.
+Una vez en esa plataforma tendrás que cargar los archivos ".PY" y ".KV" para que inicie la conversión. (YA NO ES NECESARIO EL .KV todo esta en el mismo .PY)
 Luego tendras que escribir en cada linea ejecutable el siguiente codigo.
+
+Puedes tambien ver este enlace:
+https://stackoverflow.com/questions/70314741/how-to-convert-kivy-project-into-apk-for-android
 
 !pip install buildozer
 
