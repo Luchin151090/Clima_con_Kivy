@@ -14,7 +14,9 @@ Una vez en esa plataforma tendrás que cargar los archivos ".PY" y ".KV" para qu
 Luego tendras que escribir en cada linea ejecutable el siguiente codigo.
 
 !pip install buildozer
+
 !pip install cython==0.29.19
+
 !apt install -y \
     python3-pip \
     build-essential \
@@ -31,10 +33,12 @@ Luego tendras que escribir en cada linea ejecutable el siguiente codigo.
     libavformat-dev \
     libavcodec-dev \
     zlib1g-dev
+    
 !apt install -y \
     libgstreamer1.0 \
     gstreamer1.0-plugins-base \
     gstreamer1.0-plugins-good
+    
 !apt install build-essential libsqlite3-dev sqlite3 bzip2 libbz2-dev zlib1g-dev libssl-dev openssl libgdbm-dev libgdbm-compat-dev liblzma-dev libreadline-dev libncursesw5-dev libffi-dev uuid-dev libffi6
 
 !apt install libffi-dev
