@@ -36,12 +36,19 @@ Luego tendras que escribir en cada linea ejecutable el siguiente codigo.
     gstreamer1.0-plugins-base \
     gstreamer1.0-plugins-good
 !apt install build-essential libsqlite3-dev sqlite3 bzip2 libbz2-dev zlib1g-dev libssl-dev openssl libgdbm-dev libgdbm-compat-dev liblzma-dev libreadline-dev libncursesw5-dev libffi-dev uuid-dev libffi6
+
 !apt install libffi-dev
+
 !pip install kivy
+
 !apt install ldd
+
 !buildozer init
+
 !buildozer -v android debug
+
 
 # Recomendaciones
 Ya que "GOOGLE COLAB" es un servicio en linea, cualquier interrupción en la red,hará que nos arroje un error, asi que asegurate de contar con una buena red.
+Tambíen estas instrucciones las puedes realizar desde un S.O. con LINUX
 
